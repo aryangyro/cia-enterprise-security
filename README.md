@@ -481,3 +481,8 @@ once classmates have posted and there is something to respond to.
   defending against.
 - The Netflix Technology Blog — public write-ups on multi-region
   design and chaos engineering.
+
+
+## A real example: the 2023 MOVEit breach
+
+In 2023, attackers exploited a vulnerability in MOVEit, a file transfer tool used by hundreds of organisations, and stole data from many of them at once. The breach showed the trade-off in practice: the tool was highly available and widely used, which made it valuable — and also made one vulnerability very costly. Organisations that had segmented their networks and encrypted the transferred data limited the damage; those that relied on the tool alone did not.
